@@ -157,9 +157,9 @@ max_train_samples = 5000
 max_valid_samples = 2000
 max_test_samples = 3000
 
-trainset = PCamDataset('..qnn/data/pcam/train/camelyonpatch_level_2_split_train_x.h5', './data/pcam/train/camelyonpatch_level_2_split_train_y.h5', transform=transform, max_samples=max_train_samples)
-validset = PCamDataset('..qnn/data/pcam/valid/camelyonpatch_level_2_split_valid_x.h5', './data/pcam/valid/camelyonpatch_level_2_split_valid_y.h5', transform=transform, max_samples=max_valid_samples)
-testset = PCamDataset('..qnn/data/pcam/test/camelyonpatch_level_2_split_test_x.h5', './data/pcam/test/camelyonpatch_level_2_split_test_y.h5', transform=transform, max_samples=max_test_samples)
+trainset = PCamDataset('./data/pcam/train/camelyonpatch_level_2_split_train_x.h5', './data/pcam/train/camelyonpatch_level_2_split_train_y.h5', transform=transform, max_samples=max_train_samples)
+validset = PCamDataset('./data/pcam/valid/camelyonpatch_level_2_split_valid_x.h5', './data/pcam/valid/camelyonpatch_level_2_split_valid_y.h5', transform=transform, max_samples=max_valid_samples)
+testset = PCamDataset('./data/pcam/test/camelyonpatch_level_2_split_test_x.h5', './data/pcam/test/camelyonpatch_level_2_split_test_y.h5', transform=transform, max_samples=max_test_samples)
 
 trainloader = DataLoader(trainset, batch_size=128, shuffle=True, num_workers=0, pin_memory=True)
 validloader = DataLoader(validset, batch_size=128, shuffle=False, num_workers=0, pin_memory=True)
