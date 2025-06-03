@@ -1,0 +1,10 @@
+{
+  "experiment_name": "qnn_optimized_fast_conv_regularized_v2_20250308_203543",
+  "total_time_seconds": 14541.458518981934,
+  "total_time_formatted": "4h 2m 21s",
+  "num_epochs": 50,
+  "best_val_accuracy": NaN,
+  "best_val_epoch": 44,
+  "final_test_accuracy": 61.6,
+  "final_test_f1": 0.6429014259144451
+}

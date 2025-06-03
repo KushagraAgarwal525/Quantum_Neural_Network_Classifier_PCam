@@ -1,0 +1,10 @@
+{
+  "experiment_name": "qnn_extended_15k_samples_optimized_v2_20250313_204011",
+  "total_time_seconds": 12861.735517501831,
+  "total_time_formatted": "3h 34m 22s",
+  "num_epochs": 116,
+  "best_val_accuracy": 67.5,
+  "best_val_epoch": 116,
+  "final_test_accuracy": 63.93333333333333,
+  "final_test_f1": 0.6289437585733882
+}
