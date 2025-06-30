@@ -112,6 +112,10 @@ Visualizations of ROC curves and loss/accuracy plots during training are include
 
 All training was done on an **Intel i5-13500H CPU** with **16GB RAM** in significantly less training time. Less than 10% of the data available in the PCam dataset was used, due to resource limitations, however it has shown commendable results despite using a small fraction of the dataset. I would love to take this project further with more computational resources :).
 
+## Collaborator
+
+This project was made in collaboration with [Rita Abani](https://github.com/DRA-chaos) who provided immense support throughout the project's duration. 
+
 ---
 
 _Please reach out via email if you would like to collaborate further on this project or other QML projects._
